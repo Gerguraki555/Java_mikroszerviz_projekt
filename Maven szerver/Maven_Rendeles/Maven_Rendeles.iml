@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_X">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_19">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -73,7 +73,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:6.0.11" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:6.0.11" level="project" />
-    <orderEntry type="library" name="Maven: com.h2database:h2:2.1.214" level="project" />
+    <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.2.24" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.checkerframework:checker-qual:3.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:edge-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.modelmapper:modelmapper:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0" level="project" />
