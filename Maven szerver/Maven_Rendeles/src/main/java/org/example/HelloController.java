@@ -44,6 +44,7 @@ public class HelloController { //Kontroller (Hasonlóan, mint asp.net coreban)
     public TableEntity addRandomTable(){
 
         TableEntity table=new TableEntity();
+        table.setCapacity(10);
         table.setName("Worn: ");
         return repoTable.save(table);
     }
