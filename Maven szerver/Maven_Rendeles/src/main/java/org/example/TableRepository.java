@@ -49,4 +49,6 @@ public interface TableRepository extends CrudRepository<TableEntity, Long> {
                     content = @Content(schema = @Schema(implementation = TableEntity.class), mediaType = MediaType.APPLICATION_JSON_VALUE))
     })
     public List<TableEntity> findByAvailable(boolean pAvailable);
+
+
 }
