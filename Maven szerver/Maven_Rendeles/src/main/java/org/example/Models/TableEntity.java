@@ -12,7 +12,7 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 @Schema(description = "Asztal")
-@jakarta.persistence.Table(name = "itafula")
+@jakarta.persistence.Table(name = "table_entities")
 @EqualsAndHashCode(exclude = {"name","available","capacity"})
 public class TableEntity {
     @Id
